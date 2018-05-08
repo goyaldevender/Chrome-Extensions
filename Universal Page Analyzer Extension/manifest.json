@@ -1,0 +1,21 @@
+{
+  "manifest_version": 2, 
+  "name": "Universal Page Analyzer", 
+  "version": "1.0.1",
+  "description": "It gives insight on website performance and action items for optimization, using leading APIs such as Page speed and Yslow.", 
+  
+  "browser_action": {
+    "default_icon": "icon_16.png",
+    "default_popup": "popup.html" 
+  },
+
+  "icons": {
+    "64": "icon_64.png",
+    "128": "icon_256.png",
+	  "256": "icon_256.png"
+  },
+  
+  "permissions": [
+    "activeTab"
+  ]
+}
